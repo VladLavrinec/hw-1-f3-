@@ -1,0 +1,14 @@
+const age = 15;
+const name = 'Vlad';
+const isStudent = true;
+const myString = 'Моя улюблена цитата';
+let myNumber = 110;
+myNumber = myNumber + 10;
+const myNull = null;
+let userName = prompt("Введіть своє ім’я");
+alert(userName);
+console.log(typeof userName);
+let userAnswer = confirm("Ви дійсно хочете покинути сторінку ?");
+alert("Увага! Дія може бути небезпечною.");
+confirm("Ви впевнені, що хочете продовжити?");
+console.log(age, name, isStudent, myString, myNumber, myNull, userAnswer); 
